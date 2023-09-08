@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.alert{
+    display: none;
+}
+
+#books{
+    display: none;
+}
+
+#edit-alert{
+    display: none;
+}
+
+i{
+    cursor: pointer;
+}
+
+.card{
+    margin: 20px auto;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
