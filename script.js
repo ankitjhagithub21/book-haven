@@ -33,7 +33,7 @@ myForm.addEventListener('submit',(e)=>{
 
 const addBook = (book) =>{
     books.push(book)
-    showAlert("Book Added Successfully 😊") 
+    showAlert("Book Added😊") 
     updateLs()
 }
 const showAlert = (msg) =>{
@@ -41,7 +41,7 @@ const showAlert = (msg) =>{
     alert.innerHTML = msg;
     setTimeout(()=>{
         alert.style.display="none"
-    },800)  
+    },1000)  
 }
 const updateLs = () => {
     localStorage.setItem('books',JSON.stringify(books))
@@ -75,7 +75,7 @@ const fetchBooks = () =>{
             bookBox.querySelector('.fa-trash').addEventListener('click',()=>{
                 books.splice(index ,1);
                 updateLs()
-                showAlert("Book deleted Successfully 😊")
+                showAlert("Book deleted 😔")
             })
             bookBox.querySelector('.fa-edit').addEventListener('click',()=>{
                 

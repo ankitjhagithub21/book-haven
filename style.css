@@ -5,6 +5,11 @@
 }
 
 body{
+    background-image: url("bg.avif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -36,5 +41,19 @@ i{
 .card{
     margin: 20px auto;
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(14, 13, 13, 0.35) 0px 5px 15px;
+}
+
+.col-lg-8{
+    background-color: rgba(39, 38, 38, 0.35);
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.navbar{
+    background-color: rgba(39, 38, 38, 0.35);
+}
+.navbar .btn:hover{
+    background-color: black;
+    color: white;
 }
